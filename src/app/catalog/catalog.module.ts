@@ -3,17 +3,16 @@ import { NgModule } from "@angular/core";
 import { FormsModule } from "@angular/forms";
 import { CardComponent } from "../card/card.component";
 import { SharedModule } from "../shared/shared.module";
-import { IndexRoutingModule } from "./index-routing.module";
-import { IndexComponent } from "./index.component";
+import { CatalogRoutingModule } from "./catalog-routing.module";
+import { CatalogComponent } from "./catalog.component";
 
 @NgModule({
-    declarations: [IndexComponent],
+    declarations: [CatalogComponent],
     imports: [
         CommonModule,
-        IndexRoutingModule,
-        FormsModule,
+        CatalogRoutingModule,
         SharedModule,
     ]
 })
-  export class IndexModule {
+  export class CatalogModule {
   } 

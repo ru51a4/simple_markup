@@ -1,2 +1,2 @@
 просто верстка  
-http://hot-scarf.surge.sh
+http://sweet-board.surge.sh

@@ -13,7 +13,7 @@
         </div>
         <div>
             <div class="header--main d-flex justify-content-between align-items-center">
-                <div class="header--main--logo d-flex flex-column align-items-center">
+                <div style="cursor: pointer;" routerLink="/" class="header--main--logo d-flex flex-column align-items-center">
                     <img src="/assets/image/Logo.png">
                     <span>вместе дешеле.org</span>
                 </div>
@@ -42,7 +42,7 @@
             </div>
 
             <div class="header--bottom d-flex justify-content-between align-items-center">
-                <div class="header--bottom--catalog d-flex align-items-center justify-content-center">
+                <div style="cursor: pointer;" routerLink="/catalog" class="header--bottom--catalog d-flex align-items-center justify-content-center">
                     <img src="/assets/image/catalog-icon.png">
                     <span>Каталог</span>
                 </div>
@@ -56,64 +56,36 @@
 </header>
 <div class="container">
     <div class="navigation d-flex justify-content-center flex-wrap">
-        <span>
+        <span routerLink="/catalog">
             Сумки
         </span>
-        <span>
+        <span routerLink="/catalog">
             Косметички
         </span>
-        <span>
+        <span routerLink="/catalog">
             <strong>Для дома</strong>
         </span>
-        <span>
+        <span routerLink="/catalog">
             Для путешествий
         </span>
-        <span>
+        <span routerLink="/catalog">
             Для животных
         </span>
-        <span>
+        <span routerLink="/catalog">
             Для рукоделия
         </span>
-        <span>
+        <span routerLink="/catalog">
             Органайзеры
         </span>
-        <span>
+        <span routerLink="/catalog">
             Пепельницы
         </span>
-        <span>
+        <span routerLink="/catalog">
             Подарки для нее
         </span>
-        <span>
+        <span routerLink="/catalog">
             Подарки для него
         </span>
-
-    </div>
-    <div class="banner-1 d-flex flex-column justify-content-center align-items-center">
-        <span><strong>Бесплатная </strong>доставка</span>
-        <span>при заказе от <strong>5000 ₽</strong></span>
-        <div>каталог</div>
-    </div>
-    <div class="title-1 d-flex justify-content-center">
-        Хиты продаж
-    </div>
-    <div class="cards d-flex justify-content-center flex-wrap">
-        <app-card></app-card>
-        <app-card></app-card>
-        <app-card></app-card>
-        <app-card></app-card>
-        <app-card></app-card>
-        <app-card></app-card>
-    </div>
-    <div class="title-1 d-flex justify-content-center">
-        Рекомендуем
-    </div>
-    <div class="cards d-flex justify-content-center flex-wrap">
-        <app-card></app-card>
-        <app-card></app-card>
-        <app-card></app-card>
-        <app-card></app-card>
-        <app-card></app-card>
-        <app-card></app-card>
     </div>
 </div>
 <div class="">
@@ -128,7 +100,7 @@
         <div class="footer--map">
             <div class="footer--map--ul">
                 <span>Карта Сайта</span>
-                <span>Каталог</span>
+                <span style="cursor: pointer;" routerLink="/catalog" >Каталог</span>
                 <span>О Нас</span>
                 <span>Оплата Доставка</span>
             </div>

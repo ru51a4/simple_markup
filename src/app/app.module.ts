@@ -5,16 +5,18 @@ import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { LayoutComponent } from "./layout/layout.component";
 import { CardComponent } from './card/card.component';
+import { CatalogComponent } from './catalog/catalog.component';
+import { SharedModule } from "./shared/shared.module";
+import { DetailComponent } from './detail/detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LayoutComponent,
-    CardComponent
-  ],
+    LayoutComponent, 
+  ], 
   imports: [
     BrowserModule,
-    RouterModule,
+    SharedModule,
     AppRoutingModule,  
   ],
   providers: [],
